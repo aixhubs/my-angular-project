@@ -11,7 +11,11 @@ phase:
   build:
     commands:
       - echo 'build error simulation!'
+      - exit 1
       - ng build -c production
+  finally:
+      - echo 'this is the final block execution! '
+
 artifacts:
   base-directory: dist/my-angular-project
   files:
