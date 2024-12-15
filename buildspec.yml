@@ -4,7 +4,7 @@ phase:
     runtime-versions:
       nodejs: 20
     commands:
-      - npm install -g @angular/cli@17  # 确保这一行正确缩进
+      - npm install -g @angular/cli@17  # 确保这一行正确缩进  测试
   pre_build:
     commands:
       - npm install
