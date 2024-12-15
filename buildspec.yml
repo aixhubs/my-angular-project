@@ -10,6 +10,7 @@ phase:
       - npm install
   build:
     commands:
+      - echo 'build error simulation!'
       - ng build -c production
 artifacts:
   base-directory: dist/my-angular-project
